@@ -772,9 +772,9 @@ void fsm_manual_counter_run()
 		display_7_seg(0);
  80005d8:	2000      	movs	r0, #0
  80005da:	f000 f90b 	bl	80007f4 <display_7_seg>
-		button_event = 10;
+		button_event = 9;
  80005de:	4b83      	ldr	r3, [pc, #524]	; (80007ec <fsm_manual_counter_run+0x254>)
- 80005e0:	220a      	movs	r2, #10
+ 80005e0:	2209      	movs	r2, #9
  80005e2:	601a      	str	r2, [r3, #0]
 		if(timer_flag[0] == 1)
  80005e4:	4b82      	ldr	r3, [pc, #520]	; (80007f0 <fsm_manual_counter_run+0x258>)
@@ -806,9 +806,9 @@ void fsm_manual_counter_run()
 		display_7_seg(1);
  800060c:	2001      	movs	r0, #1
  800060e:	f000 f8f1 	bl	80007f4 <display_7_seg>
-		button_event = 10;
+		button_event = 9;
  8000612:	4b76      	ldr	r3, [pc, #472]	; (80007ec <fsm_manual_counter_run+0x254>)
- 8000614:	220a      	movs	r2, #10
+ 8000614:	2209      	movs	r2, #9
  8000616:	601a      	str	r2, [r3, #0]
 		if(timer_flag[0] == 1)
  8000618:	4b75      	ldr	r3, [pc, #468]	; (80007f0 <fsm_manual_counter_run+0x258>)
@@ -840,9 +840,9 @@ void fsm_manual_counter_run()
 		display_7_seg(2);
  8000640:	2002      	movs	r0, #2
  8000642:	f000 f8d7 	bl	80007f4 <display_7_seg>
-		button_event = 10;
+		button_event = 9;
  8000646:	4b69      	ldr	r3, [pc, #420]	; (80007ec <fsm_manual_counter_run+0x254>)
- 8000648:	220a      	movs	r2, #10
+ 8000648:	2209      	movs	r2, #9
  800064a:	601a      	str	r2, [r3, #0]
 		if(timer_flag[0] == 1)
  800064c:	4b68      	ldr	r3, [pc, #416]	; (80007f0 <fsm_manual_counter_run+0x258>)
@@ -874,9 +874,9 @@ void fsm_manual_counter_run()
 		display_7_seg(3);
  8000674:	2003      	movs	r0, #3
  8000676:	f000 f8bd 	bl	80007f4 <display_7_seg>
-		button_event = 10;
+		button_event = 9;
  800067a:	4b5c      	ldr	r3, [pc, #368]	; (80007ec <fsm_manual_counter_run+0x254>)
- 800067c:	220a      	movs	r2, #10
+ 800067c:	2209      	movs	r2, #9
  800067e:	601a      	str	r2, [r3, #0]
 		if(timer_flag[0] == 1)
  8000680:	4b5b      	ldr	r3, [pc, #364]	; (80007f0 <fsm_manual_counter_run+0x258>)
@@ -908,9 +908,9 @@ void fsm_manual_counter_run()
 		display_7_seg(4);
  80006a8:	2004      	movs	r0, #4
  80006aa:	f000 f8a3 	bl	80007f4 <display_7_seg>
-		button_event = 10;
+		button_event = 9;
  80006ae:	4b4f      	ldr	r3, [pc, #316]	; (80007ec <fsm_manual_counter_run+0x254>)
- 80006b0:	220a      	movs	r2, #10
+ 80006b0:	2209      	movs	r2, #9
  80006b2:	601a      	str	r2, [r3, #0]
 		if(timer_flag[0] == 1)
  80006b4:	4b4e      	ldr	r3, [pc, #312]	; (80007f0 <fsm_manual_counter_run+0x258>)
@@ -942,9 +942,9 @@ void fsm_manual_counter_run()
 		display_7_seg(5);
  80006dc:	2005      	movs	r0, #5
  80006de:	f000 f889 	bl	80007f4 <display_7_seg>
-		button_event = 10;
+		button_event = 9;
  80006e2:	4b42      	ldr	r3, [pc, #264]	; (80007ec <fsm_manual_counter_run+0x254>)
- 80006e4:	220a      	movs	r2, #10
+ 80006e4:	2209      	movs	r2, #9
  80006e6:	601a      	str	r2, [r3, #0]
 		if(timer_flag[0] == 1)
  80006e8:	4b41      	ldr	r3, [pc, #260]	; (80007f0 <fsm_manual_counter_run+0x258>)
@@ -976,9 +976,9 @@ void fsm_manual_counter_run()
 		display_7_seg(6);
  8000710:	2006      	movs	r0, #6
  8000712:	f000 f86f 	bl	80007f4 <display_7_seg>
-		button_event = 10;
+		button_event = 9;
  8000716:	4b35      	ldr	r3, [pc, #212]	; (80007ec <fsm_manual_counter_run+0x254>)
- 8000718:	220a      	movs	r2, #10
+ 8000718:	2209      	movs	r2, #9
  800071a:	601a      	str	r2, [r3, #0]
 		if(timer_flag[0] == 1)
  800071c:	4b34      	ldr	r3, [pc, #208]	; (80007f0 <fsm_manual_counter_run+0x258>)
@@ -1010,9 +1010,9 @@ void fsm_manual_counter_run()
 		display_7_seg(7);
  8000744:	2007      	movs	r0, #7
  8000746:	f000 f855 	bl	80007f4 <display_7_seg>
-		button_event = 10;
+		button_event = 9;
  800074a:	4b28      	ldr	r3, [pc, #160]	; (80007ec <fsm_manual_counter_run+0x254>)
- 800074c:	220a      	movs	r2, #10
+ 800074c:	2209      	movs	r2, #9
  800074e:	601a      	str	r2, [r3, #0]
 		if(timer_flag[0] == 1)
  8000750:	4b27      	ldr	r3, [pc, #156]	; (80007f0 <fsm_manual_counter_run+0x258>)
@@ -1044,9 +1044,9 @@ void fsm_manual_counter_run()
 		display_7_seg(8);
  8000778:	2008      	movs	r0, #8
  800077a:	f000 f83b 	bl	80007f4 <display_7_seg>
-		button_event = 10;
+		button_event = 9;
  800077e:	4b1b      	ldr	r3, [pc, #108]	; (80007ec <fsm_manual_counter_run+0x254>)
- 8000780:	220a      	movs	r2, #10
+ 8000780:	2209      	movs	r2, #9
  8000782:	601a      	str	r2, [r3, #0]
 		if(timer_flag[0] == 1)
  8000784:	4b1a      	ldr	r3, [pc, #104]	; (80007f0 <fsm_manual_counter_run+0x258>)
@@ -1078,9 +1078,9 @@ void fsm_manual_counter_run()
 		display_7_seg(9);
  80007ac:	2009      	movs	r0, #9
  80007ae:	f000 f821 	bl	80007f4 <display_7_seg>
-		button_event = 10;
+		button_event = 9;
  80007b2:	4b0e      	ldr	r3, [pc, #56]	; (80007ec <fsm_manual_counter_run+0x254>)
- 80007b4:	220a      	movs	r2, #10
+ 80007b4:	2209      	movs	r2, #9
  80007b6:	601a      	str	r2, [r3, #0]
 		if(timer_flag[0] == 1)
  80007b8:	4b0d      	ldr	r3, [pc, #52]	; (80007f0 <fsm_manual_counter_run+0x258>)

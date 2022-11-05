@@ -12,7 +12,7 @@ void fsm_manual_counter_run()
 	switch (status) {
 	case manual_0:
 		display_7_seg(0);
-		button_event = 10;
+		button_event = 9;
 		if(timer_flag[0] == 1)
 		{
 
@@ -25,7 +25,7 @@ void fsm_manual_counter_run()
 		break;
 	case manual_1:
 		display_7_seg(1);
-		button_event = 10;
+		button_event = 9;
 		if(timer_flag[0] == 1)
 		{
 
@@ -38,7 +38,7 @@ void fsm_manual_counter_run()
 		break;
 	case manual_2:
 		display_7_seg(2);
-		button_event = 10;
+		button_event = 9;
 		if(timer_flag[0] == 1)
 		{
 
@@ -51,7 +51,7 @@ void fsm_manual_counter_run()
 		break;
 	case manual_3:
 		display_7_seg(3);
-		button_event = 10;
+		button_event = 9;
 		if(timer_flag[0] == 1)
 		{
 
@@ -64,7 +64,7 @@ void fsm_manual_counter_run()
 		break;
 	case manual_4:
 		display_7_seg(4);
-		button_event = 10;
+		button_event = 9;
 		if(timer_flag[0] == 1)
 		{
 
@@ -77,7 +77,7 @@ void fsm_manual_counter_run()
 		break;
 	case manual_5:
 		display_7_seg(5);
-		button_event = 10;
+		button_event = 9;
 		if(timer_flag[0] == 1)
 		{
 
@@ -90,7 +90,7 @@ void fsm_manual_counter_run()
 		break;
 	case manual_6:
 		display_7_seg(6);
-		button_event = 10;
+		button_event = 9;
 		if(timer_flag[0] == 1)
 		{
 
@@ -103,7 +103,7 @@ void fsm_manual_counter_run()
 		break;
 	case manual_7:
 		display_7_seg(7);
-		button_event = 10;
+		button_event = 9;
 		if(timer_flag[0] == 1)
 		{
 
@@ -116,7 +116,7 @@ void fsm_manual_counter_run()
 		break;
 	case manual_8:
 		display_7_seg(8);
-		button_event = 10;
+		button_event = 9;
 		if(timer_flag[0] == 1)
 		{
 
@@ -129,7 +129,7 @@ void fsm_manual_counter_run()
 		break;
 	case manual_9:
 		display_7_seg(9);
-		button_event = 10;
+		button_event = 9;
 		if(timer_flag[0] == 1)
 		{
 
