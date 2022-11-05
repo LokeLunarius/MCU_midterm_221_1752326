@@ -1,0 +1,5 @@
+global.c:13:6:display_7_seg	16	static
+global.c:111:6:full_reset_check	8	static
+global.c:119:6:increase_shift_check	16	static
+global.c:132:6:decrease_shift_check	16	static
+global.c:146:6:button_event_counter	4	static
